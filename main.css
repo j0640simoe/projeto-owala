@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container h1 {
+    font-size: 1.5rem;
+}
+.navbar {
+    background-color: #8EAAD4;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #8EAAD4;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title span {
+    color: #8EAAD4;
+}
+
+#sobre {
+    background-color: #fff;
+}
+
+
+#owala {
+    background-color: #F5F3F3;
+}
+
+.text-colored {
+    color: #8EAAD4;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color:  #8EAAD4;
+    color: #ffffff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #7591bc;
+}
+
+
+.custom-img {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.social-links li {
+    list-style: nome;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 797px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
