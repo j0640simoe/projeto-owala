@@ -41,6 +41,15 @@ h2 {
     background-color: #fff;
 }
 
+.btn-custom {
+    background-color: #7591bc;
+    color: #fff;
+}
+
+.btn-custom:active,
+.btn-custom:focus {
+    background-color: #7591bc; 
+}
 
 #owala {
     background-color: #F5F3F3;
@@ -75,8 +84,36 @@ h2 {
     text-decoration: none;
 }
 
+
 @media (max-width: 797px) {
     .carousel-item img {
         height: 280px;
     }
+}
+
+.container img {
+    max-width: 100%;
+}
+.navbar-toggler { 
+    padding: 2px;
+}
+
+
+#carousel-exemplo .carousel-item img {
+height: 250px;
+object-fit: cover;
+}
+
+.col-4 {
+flex: 0 0 auto;
+width: 100%;
+}
+
+.nav-link {
+text-align: center;
+}
+
+.custom-img {
+    height: 300px;
+    object-fit: cover;
 }
